@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>9.form.html</title>
+    </head>
+    <body>
+        <!--
+        get : 정보가 공개되어 주소를 알고있다면
+        누구든 접근하여 같은 페이지를 보여준다.
+        길이가 255자가 한계 like 엽서
+        
+        post : 데이터가 head의 meta에 담겨 전송이
+        되어 보안이 높고 많은 데이터를
+        보낼 때 사용된다. like 편지
+        
+        -->
+        
+        <form action="./search.html" method="get">
+            <input type="text" name="txt">
+            <input type="button" value="버튼">
+            <input type="submit" value="전송">
+            
+            <br>
+            
+            <label>
+               <input type="radio" name="sex" value="남">
+               남
+            </label>
+            <label>
+              <input type="radio" name="sex" value="여">
+              여
+            </label> 
+            
+        </form>
+        
+    </body>
+</html>
